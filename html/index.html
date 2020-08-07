@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="../css/./header.css">
+    <link rel="stylesheet" href="../css/./main.css">
+    <link rel="stylesheet" href="../css/./scroll-up.css">
+    <link rel="stylesheet" href="../css/./trangchu.css">
+    <link rel="stylesheet" href="../css/./footer.css">
+
+    <link rel="stylesheet" href="../fontawesome/./css/./all.css">
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
+    <link rel="stylesheet" href="../css/./animate.css" />
+    <!-- wowjs -->
+</head>
+
+<body>
+    <div class="body-wrapper">
+        <header>
+            <div class="header-top">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav header-left">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#"><img id="nav-logo" src="../images/logo.jpg" alt=""></a>
+                            </li>
+                            <li class="nav-item" title="Trang chủ">
+                                <a class="nav-link" href="#"><i class="fas fa-home"></i>Trang chủ</a>
+                            </li>
+                            <li class="nav-item" title="Đặt Tour">
+                                <a class="nav-link" href="#"><i class="fas fa-ticket-alt"></i>Đặt Tour</a>
+                            </li>
+                            <li class="nav-item" title="Đặt Vé Máy Bay">
+                                <a class="nav-link" href="#"><i class="fas fa-plane-departure"></i>Đặt Vé Máy Bay</a>
+                            </li>
+                            <li class="nav-item" title="Đặt Khách Sạn">
+                                <a class="nav-link" href="#"><i class="fas fa-hotel"></i>Đặt Khách Sạn</a>
+                            </li>
+                            <li class="nav-item" title="Cẩm nang">
+                                <a class="nav-link" href="#"><i class="fas fa-umbrella-beach"></i>Cẩm nang</a>
+                            </li>
+                        </ul>
+                        <ul class="navbar-nav header-right">
+                            <li class="nav-item dropdown" title="Tài khoản">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i
+                                        class="fas fa-user"></i>
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <a class="dropdown-item" href="home_dynamic.html">Đăng kí</a>
+                                    <a class="dropdown-item" href="home-unique.html">Đăng nhập</a>
+                                </div>
+                            </li>
+                            <li class="nav-item" title="Tin nhắn">
+                                <a class="nav-link" href="#"><i class="fas fa-comments"></i></a>
+                            </li>
+                            <li class="nav-item" title="Thông báo">
+                                <a class="nav-link" href="#"><i class="fas fa-bell"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--  -->
+                </nav>
+            </div>
+        </header>
+
+        <div class="scroll-up">
+            <i class="fas fa-chevron-up shadow"></i>
+        </div>
+
+        <div class="contact">
+            <i class="fas fa-phone-alt shadow"></i>
+            <span class="show-contact-span">Liên hệ: 028 123 45678</span>
+        </div>
+
+        <section class="">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="../images/33971.jpg" class="d-block w-100 slide-img"
+                            alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../images/150718.jpg" class="d-block w-100 slide-img"
+                            alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../images/150641.jpg" class="d-block w-100 slide-img"
+                            alt="...">
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+
+            <div class="container">
+                <div class="tour">
+                    <h2><i class="fas fa-fire-alt"></i>Địa Điểm Nổi Bật<i class="fas fa-fire-alt"></i></h2>
+                    <div class="article">
+                        <div class="tours col-lg-3 col-sm-12 col-md-6 wow bounceInUp">
+                            <a href="#">
+                                <div class="zoom">
+                                    <img src="../images/singapore.webp" class="img-tour-content" alt="Singapore"
+                                        title="Singapore">
+                                    <i class="fas fa-camera"></i>
+                                </div>
+                                <div class="tour-content">
+                                    <h5>Singapore</h5>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="tours col-lg-3 col-sm-12 col-md-6 wow bounceInUp" data-wow-delay=".1s">
+                            <a href="#">
+                                <div class="zoom">
+                                    <img src="../images/danang.jpg" class="img-tour-content" alt="Đà Nẵng"
+                                        title="Đà Nẵng">
+                                </div>
+                                <div class="tour-content">
+                                    <h5>Đà Nẵng</h5>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="tours col-lg-3 col-sm-12 col-md-6 wow bounceInUp" data-wow-delay=".2s">
+                            <a href="#">
+                                <div class="zoom">
+                                    <img src="../images/bangkok.jpg" class="img-tour-content" alt="Bangkok"
+                                        title="Bangkok">
+                                </div>
+                                <div class="tour-content">
+                                    <h5>Bangkok</h5>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="tours col-sm-12 col-md-6 col-lg-3 wow bounceInUp" data-wow-delay=".3s">
+                            <a href="#">
+                                <div class="zoom">
+                                    <img src="../images/dalat.webp" class="img-tour-content" alt="Đà Lạt"
+                                        title="Đà Lạt">
+                                </div>
+                                <div class="tour-content">
+                                    <h5>Đà Lạt</h5>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tour">
+                    <h2><i class="fas fa-map-marker-alt"></i>Điểm Đến Nổi Bật Trong Nước<i
+                            class="fas fa-map-marker-alt"></i></h2>
+                    <div class="article">
+                        <div class="tours col-lg-4 col-sm-12 col-md-6 wow animate__animated  animate__slideInLeft">
+                            <a href="#">
+                                <div class="zoom">
+                                    <img src="../images/halong.webp" class="img-tour-content" alt="Hạ Long"
+                                        title="Hạ Long">
+                                </div>
+                                <div class="tour-content">
+                                    <h5>Hạ Long</h5>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="tours col-lg-4 col-sm-12 col-md-6 wow animate__animated  animate__slideInLeft"
+                            data-wow-delay=".1s">
+                            <a href="#">
+                                <div class="zoom">
+                                    <img src="../images/phanthiet.webp" class="img-tour-content" alt="Phan Thiết"
+                                        title="Phan Thiết">
+                                </div>
+                                <div class="tour-content">
+                                    <h5>Phan Thiết</h5>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="tours col-lg-4 col-sm-12 col-md-6 wow animate__animated  animate__slideInLeft"
+                            data-wow-delay=".2s">
+                            <a href="#">
+                                <div class="zoom">
+                                    <img src="../images/phuquoc.webp" class="img-tour-content" alt="Phú Quốc"
+                                        title="Phú Quốc">
+                                </div>
+                                <div class="tour-content">
+                                    <h5>Phú Quốc</h5>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="tours col-lg-4 col-sm-12 col-md-6 wow animate__animated  animate__slideInRight">
+                            <a href="#">
+                                <div class="zoom">
+                                    <img src="../images/hcm.webp" class="img-tour-content" alt="TP.Hồ Chí Minh"
+                                        title="TP.Hồ Chí Minh">
+                                </div>
+                                <div class="tour-content">
+                                    <h5>TP. Hồ Chí Minh</h5>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="tours col-lg-4 col-sm-12 col-md-6 wow animate__animated  animate__slideInRight"
+                            data-wow-delay=".1s">
+                            <a href="#">
+                                <div class="zoom">
+                                    <img src="../images/vungtau.webp" class="img-tour-content" alt="Vũng Tàu"
+                                        title="Vũng Tàu">
+                                </div>
+                                <div class="tour-content">
+                                    <h5>Vũng Tàu</h5>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="tours col-lg-4 col-sm-12 col-md-6 wow animate__animated  animate__slideInRight"
+                            data-wow-delay=".2s">
+                            <a href="#">
+                                <div class="zoom">
+                                    <img src="../images/sapa.webp" class="img-tour-content" alt="SaPa" title="SaPa">
+                                </div>
+                                <div class="tour-content">
+                                    <h5>SaPa</h5>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tour">
+                    <h2><i class="fas fa-location-arrow"></i>Điểm Đến Nổi Bật Nước Ngoài<i
+                            class="fas fa-location-arrow"></i></h2>
+                    <div class="article">
+                        <div class="tours col-lg-4 col-sm-12 col-md-6 wow animate__animated animate__fadeInDown">
+                            <a href="#">
+                                <div class="zoom">
+                                    <img src="../images/kuala-lumpur.jpg" class="img-tour-content" alt="Kuala-Lumpur"
+                                        title="Kuala-Lumpur">
+                                </div>
+                                <div class="tour-content">
+                                    <h5>Kuala-Lumpur</h5>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="tours col-lg-4 col-sm-12 col-md-6 wow animate__animated animate__fadeInDown"
+                            data-wow-delay=".3s">
+                            <a href="#">
+                                <div class="zoom">
+                                    <img src="../images/seoul.jpg" class="img-tour-content" alt="Seoul" title="Seoul">
+                                </div>
+                                <div class="tour-content">
+                                    <h5>Seoul</h5>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="tours col-lg-4 col-sm-12 col-md-6 wow animate__animated animate__fadeInDown"
+                            data-wow-delay=".6s">
+                            <a href="#">
+                                <div class="zoom">
+                                    <img src="../images/taipei.jpg" class="img-tour-content" alt="Taipei"
+                                        title="Đài Bắc">
+                                </div>
+                                <div class="tour-content">
+                                    <h5>Taipei</h5>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="tours col-lg-4 col-sm-12 col-md-6 wow animate__animated animate__fadeInUp">
+                            <a href="#">
+                                <div class="zoom">
+                                    <img src="../images/hong-kong.webp" class="img-tour-content" alt="HongKong"
+                                        title="HongKong">
+                                </div>
+                                <div class="tour-content">
+                                    <h5>HongKong</h5>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="tours col-lg-4 col-sm-12 col-md-6 wow animate__animated animate__fadeInUp"
+                            data-wow-delay=".3s">
+                            <a href="#">
+                                <div class="zoom">
+                                    <img src="../images/guang-zhou.webp" class="img-tour-content" alt="guang-zhou"
+                                        title="Quảng Châu">
+                                </div>
+                                <div class="tour-content">
+                                    <h5>Guang-Zhou</h5>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="tours col-lg-4 col-sm-12 col-md-6 wow animate__animated animate__fadeInUp"
+                            data-wow-delay=".6s">
+                            <a href="#">
+                                <div class="zoom">
+                                    <img src="../images/siem-reap.jpg" class="img-tour-content" alt="Siem-Reap"
+                                        title="Siem-Reap">
+                                </div>
+                                <div class="tour-content">
+                                    <h5>Siem-Reap</h5>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="discount tour">
+                    <h2><i class="fas fa-tags"></i>Giảm giá cho Thành viên<i class="fas fa-tags"></i></h2>
+                    <div class="article">
+                        <div
+                            class="left-discount col-sm-12 col-md-12 col-lg-6 wow animate__animated animate__bounceInLeft">
+                            <a href="#">
+                                <img src="https://staticproxy.mytourcdn.com/0x0/resources/pictures/banners/advertising1578982831.jpg"
+                                    alt="">
+                            </a>
+                        </div>
+                        <div
+                            class="right-discount col-sm-12 col-md-12 col-lg-6 wow animate__animated animate__bounceInRight">
+                            <a href="#">
+                                <img src="../images/banner-introduce2.webp" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="extension">
+                        <a href="#">Đăng kí ngay<i class="fas fa-exclamation"></i></a>
+                    </div>
+
+                </div>
+                <div class="introduce tour">
+                    <h2><i class="fas fa-thumbs-up"></i>Tại sao nên chọn chúng tôi<i class="fas fa-thumbs-up"></i></h2>
+                    <div class="introduce-content row">
+                        <div id="" class="introduces col-sm-12 col-md-6 col-lg-6">
+                            <i class="fas fa-dollar-sign col-sm-12 col-lg-3"></i>
+                            <div class="col-sm-12 col-lg-7">
+                                <h4>Giá Cả</h4>
+                                <ul>
+                                    <li>Luôn có mức giá tốt nhất</li>
+                                    <li> Giá tốt hơn so với đặt phòng trực tiếp tại khách sạn</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div id="" class="introduces col-sm-12 col-md-6 col-lg-6">
+                            <i class="fas fa-shopping-basket col-sm-12 col-lg-3"></i>
+                            <div class="col-sm-12 col-lg-7">
+                                <h4>Sản phẩm</h4>
+                                <ul>
+                                    <li>Đa dạng, đạt chất lượng tốt nhất</li>
+                                    <li>Nhiều chương trình khuyến mãi và tích lũy điểm</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div id="" class="introduces col-sm-12 col-md-6 col-lg-6">
+                            <i class="fas fa-user-clock col-sm-12 col-lg-3"></i>
+                            <div class="col-sm-12 col-lg-7">
+                                <h4>Hỗ trợ</h4>
+                                <ul>
+                                    <li>Từ 08h00 - 22h00</li>
+                                    <li>Hotline và hỗ trợ trực tuyến các ngày trong tuần</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div id="" class="introduces col-sm-12 col-md-6 col-lg-6">
+                            <i class="fas fa-user-clock col-sm-12 col-lg-3"></i>
+                            <div class="col-sm-12 col-lg-7">
+                                <h4>Hỗ trợ</h4>
+                                <ul>
+                                    <li>Từ 08h00 - 22h00</li>
+                                    <li>Hotline và hỗ trợ trực tuyến các ngày trong tuần</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tour register container">
+                <h2><i class="fas fa-reply"></i>Đăng kí nhận thông tin<i class="fas fa-reply"></i></h2>
+                <form action="#">
+                    <input type="email" class="form-control shadow" id="exampleInputEmail1" aria-describedby="emailHelp"
+                        placeholder="Email">
+                    <button type="submit"><i class="fas fa-envelope"></i></button>
+                </form>
+            </div>
+            <!--  -->
+        </section>
+
+        <footer>
+            <div class="container">
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <h1>My Tours</h1>
+                    <p></p>
+                    <p>© 2020, My Tours</p>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <h3>Chính sách và bảo mật</h3>
+                    <ul>
+                        <li><a href="#">Chính sách và qui định chung</a></li>
+                        <li><a href="#">Quy định về thanh toán</a></li>
+                        <li><a href="#">Chính sách về hủy tour</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-4">
+                    <h3>Liên hệ</h3>
+                    <ul>
+                        <li>Chi nhánh Hà Nội:</li>
+                        <li>Điện thoại: 028 123 45678</li>
+                        <li>Hotline: 19001008</li>
+                    </ul>
+                    <ul class="contact-icons">
+                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+
+        </footer>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+    </script>
+    <!-- boostrap -->
+    <script type="text/javascript" src="../js/./wow.min.js"></script>
+    <!-- wowjs -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- jquerry -->
+    <script type="text/javascript" src="../js/./scroll-up.js"></script>
+    <script type="text/javascript" src="../js/./slideshow.js"></script>
+
+    <script>
+        new WOW().init();
+    </script>
+    <!-- <script type="text/javascript" src="../bootstrap/./js/./bootstrap.min.js"></script> -->
+</body>
+
+</html>

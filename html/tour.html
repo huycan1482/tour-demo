@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="../css/./header.css">
+    <link rel="stylesheet" href="../css/./main.css">
+    <link rel="stylesheet" href="../css/./scroll-up.css">
+    <link rel="stylesheet" href="../css/./footer.css">
+
+    <link rel="stylesheet" href="../css/./tour.css">
+
+    <link rel="stylesheet" href="../fontawesome/./css/./all.css">
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
+    <link rel="stylesheet" href="../css/./animate.css" />
+    <!-- wowjs -->
+</head>
+
+<body>
+    <div class="body-wrapper">
+        <header>
+            <div class="header-top">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav header-left">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#"><img id="nav-logo" src="../images/logo.jpg" alt=""></a>
+                            </li>
+                            <li class="nav-item" title="Trang chủ">
+                                <a class="nav-link" href="#"><i class="fas fa-home"></i>Trang chủ</a>
+                            </li>
+                            <li class="nav-item" title="Đặt Tour">
+                                <a class="nav-link" href="#"><i class="fas fa-ticket-alt"></i>Đặt Tour</a>
+                            </li>
+                            <li class="nav-item" title="Đặt Vé Máy Bay">
+                                <a class="nav-link" href="#"><i class="fas fa-plane-departure"></i>Đặt Vé Máy Bay</a>
+                            </li>
+                            <li class="nav-item" title="Đặt Khách Sạn">
+                                <a class="nav-link" href="#"><i class="fas fa-hotel"></i>Đặt Khách Sạn</a>
+                            </li>
+                            <li class="nav-item" title="Cẩm nang">
+                                <a class="nav-link" href="#"><i class="fas fa-umbrella-beach"></i>Cẩm nang</a>
+                            </li>
+                        </ul>
+                        <ul class="navbar-nav header-right">
+                            <li class="nav-item dropdown" title="Tài khoản">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i
+                                        class="fas fa-user"></i>
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <a class="dropdown-item" href="home_dynamic.html">Đăng kí</a>
+                                    <a class="dropdown-item" href="home-unique.html">Đăng nhập</a>
+                                </div>
+                            </li>
+                            <li class="nav-item" title="Tin nhắn">
+                                <a class="nav-link" href="#"><i class="fas fa-comments"></i></a>
+                            </li>
+                            <li class="nav-item" title="Thông báo">
+                                <a class="nav-link" href="#"><i class="fas fa-bell"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--  -->
+                </nav>
+            </div>
+        </header>
+
+        <div class="scroll-up">
+            <i class="fas fa-chevron-up shadow"></i>
+        </div>
+
+        <div class="contact">
+            <i class="fas fa-phone-alt shadow"></i>
+            <span class="show-contact-span">Liên hệ: 028 123 45678</span>
+        </div>
+
+        <section>
+            <div class="lg-banner">
+                <div class="shadow">
+                    <h2>Bạn muốn du lịch ở đâu</h2>
+                    <form action="#">
+                        <input type="text" class="form-control shadow" placeholder="Nhập địa danh...">
+                        <button><i class="fas fa-search"></i></button>
+                    </form>
+                </div>
+            </div>
+            <div class="container">
+                <div class="tour">
+                    <h2><i class="fas fa-map-marker-alt"></i>Điểm Đến Nổi Bật Trong Nước<i
+                            class="fas fa-map-marker-alt"></i></h2>
+                    <div class="article">
+                        <div class="tours col-sm-12 col-md-6 col-lg-3 wow bounceInUp">
+                            <a href="#">
+                                <div class="zoom">
+                                    <img src="../images/dalat2.webp" class="img-tour-content" alt="Đà Lạt"
+                                        title="Đà Lạt">
+                                </div>
+                                <div class="tour-content">
+                                    <h5>Đà Lạt</h5>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="tours col-sm-12 col-md-6 col-lg-3 wow bounceInUp" data-wow-delay=".1s">
+                            <a href="#">
+                                <div class="zoom">
+                                    <img src="../images/nhatrang2.webp" class="img-tour-content" alt="Nha Trang"
+                                        title="Nha Trang">
+                                </div>
+                                <div class="tour-content">
+                                    <h5>Nha Trang</h5>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="tours col-sm-12 col-md-6 col-lg-3 wow bounceInUp" data-wow-delay=".2s">
+                            <a href="#">
+                                <div class="zoom">
+                                    <img src="../images/danang.webp" class="img-tour-content" alt="Đà Nẵng"
+                                        title="Đà Nẵng">
+                                </div>
+                                <div class="tour-content">
+                                    <h5>Đà Nẵng</h5>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="tours col-sm-12 col-md-6 col-lg-3 wow bounceInUp" data-wow-delay=".3s">
+                            <a href="#">
+                                <div class="zoom">
+                                    <img src="../images/halong2.webp" class="img-tour-content" alt="Hạ Long"
+                                        title="Hạ Long">
+                                </div>
+                                <div class="tour-content">
+                                    <h5>Hạ Long</h5>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="tours col-sm-12 col-md-6 col-lg-3 wow bounceInUp">
+                            <a href="#">
+                                <div class="zoom">
+                                    <img src="../images/sapa2.webp" class="img-tour-content" alt="SaPa" title="SaPa">
+                                </div>
+                                <div class="tour-content">
+                                    <h5>SaPa</h5>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="tours col-sm-12 col-md-6 col-lg-3 wow bounceInUp" data-wow-delay=".1s">
+                            <a href="#">
+                                <div class="zoom">
+                                    <img src="../images/phanthiet2.webp" class="img-tour-content" alt="Phan Thiết"
+                                        title="Phan Thiết">
+                                </div>
+                                <div class="tour-content">
+                                    <h5>Phan Thiết</h5>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="tours col-sm-12 col-md-6 col-lg-3 wow bounceInUp" data-wow-delay=".2s">
+                            <a href="#">
+                                <div class="zoom">
+                                    <img src="../images/hagiang2.jpg" class="img-tour-content" alt="Hà Giang"
+                                        title="Hà Giang">
+                                </div>
+                                <div class="tour-content">
+                                    <h5>Hà Giang</h5>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="tours col-sm-12 col-md-6 col-lg-3 wow bounceInUp" data-wow-delay=".3s">
+                            <a href="#">
+                                <div class="zoom">
+                                    <img src="../images/phuquoc2.webp" class="img-tour-content" alt="Phú Quốc"
+                                        title="Phú Quốc">
+                                </div>
+                                <div class="tour-content">
+                                    <h5>Phú Quốc</h5>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="tours col-sm-12 col-md-6 col-lg-3 wow bounceInUp">
+                            <a href="#">
+                                <div class="zoom">
+                                    <img src="../images/hoian2.webp" class="img-tour-content" alt="Hội An"
+                                        title="Hội An">
+                                </div>
+                                <div class="tour-content">
+                                    <h5>Hội An</h5>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="tours col-sm-12 col-md-6 col-lg-3 wow bounceInUp" data-wow-delay=".1s">
+                            <a href="#">
+                                <div class="zoom">
+                                    <img src="../images/hcm2.webp" class="img-tour-content" alt="TP.Hồ Chí Minh"
+                                        title="TP.Hồ Chí Minh">
+                                </div>
+                                <div class="tour-content">
+                                    <h5>TP.Hồ Chí Minh</h5>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="tours col-sm-12 col-md-6 col-lg-3 wow bounceInUp" data-wow-delay=".2s">
+                            <a href="#">
+                                <div class="zoom">
+                                    <img src="../images/hanoi2.jpg" class="img-tour-content" alt="Hà Nội"
+                                        title="Hà Nội">
+                                </div>
+                                <div class="tour-content">
+                                    <h5>Hà Nội</h5>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="tours col-sm-12 col-md-6 col-lg-3 wow bounceInUp" data-wow-delay=".3s">
+                            <a href="#">
+                                <div class="zoom">
+                                    <img src="../images/bentre2.webp" class="img-tour-content" alt="Bến Tre"
+                                        title="Bến Tre">
+                                </div>
+                                <div class="tour-content">
+                                    <h5>Bến Tre</h5>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="extension">
+                        <a href="#">Xem thêm<i class="fas fa-caret-right"></i></a>
+                    </div>
+                </div>
+                <div class="tour">
+                    <h2><i class="fas fa-location-arrow"></i>Điểm Đến Nổi Bật Nước Ngoài<i
+                            class="fas fa-location-arrow"></i></h2>
+                    <div class="article">
+                        <div class="tours col-sm-12 col-md-6 col-lg-3 wow bounceInUp">
+                            <a href="#">
+                                <div class="zoom">
+                                    <img src="../images/thailand2.webp" class="img-tour-content" alt="ThaiLand"
+                                        title="Thái Lan">
+                                </div>
+                                <div class="tour-content">
+                                    <h5>ThaiLand</h5>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="tours col-sm-12 col-md-6 col-lg-3 wow bounceInUp" data-wow-delay=".1s">
+                            <a href="#">
+                                <div class="zoom">
+                                    <img src="../images/singapore2.webp" class="img-tour-content" alt="Singapore"
+                                        title="Singapore">
+                                </div>
+                                <div class="tour-content">
+                                    <h5>Singapore</h5>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="tours col-sm-12 col-md-6 col-lg-3 wow bounceInUp" data-wow-delay=".2s">
+                            <a href="#">
+                                <div class="zoom">
+                                    <img src="../images/china2.webp" class="img-tour-content" alt="China"
+                                        title="Trung Quốc">
+                                </div>
+                                <div class="tour-content">
+                                    <h5>China</h5>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="tours col-sm-12 col-md-6 col-lg-3 wow bounceInUp" data-wow-delay=".3s">
+                            <a href="#">
+                                <div class="zoom">
+                                    <img src="../images/japan2.webp" class="img-tour-content" alt="Japan"
+                                        title="Nhật Bản">
+                                </div>
+                                <div class="tour-content">
+                                    <h5>Japan</h5>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="tours col-sm-12 col-md-6 col-lg-3 wow bounceInUp">
+                            <a href="#">
+                                <div class="zoom">
+                                    <img src="../images/hongkong2.webp" class="img-tour-content" alt="HongKong"
+                                        title="HongKong">
+                                </div>
+                                <div class="tour-content">
+                                    <h5>HongKong</h5>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="tours col-sm-12 col-md-6 col-lg-3 wow bounceInUp" data-wow-delay=".1s">
+                            <a href="#">
+                                <div class="zoom">
+                                    <img src="../images/campuchia2.webp" class="img-tour-content" alt="Campuchia"
+                                        title="Campuchia">
+                                </div>
+                                <div class="tour-content">
+                                    <h5>Campuchia</h5>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="tours col-sm-12 col-md-6 col-lg-3 wow bounceInUp" data-wow-delay=".2s">
+                            <a href="#">
+                                <div class="zoom">
+                                    <img src="../images/phap2.webp" class="img-tour-content" alt="Pháp" title="Pháp">
+                                </div>
+                                <div class="tour-content">
+                                    <h5>France</h5>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="tours col-sm-12 col-md-6 col-lg-3 wow bounceInUp" data-wow-delay=".3s">
+                            <a href="#">
+                                <div class="zoom">
+                                    <img src="../images/korean.webp" class="img-tour-content" alt="Korean"
+                                        title="Hàn Quốc">
+                                </div>
+                                <div class="tour-content">
+                                    <h5>Korean</h5>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="extension">
+                        <a href="#">Xem thêm<i class="fas fa-caret-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="container">
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <h1>My Tours</h1>
+                    <p></p>
+                    <p>© 2020, My Tours</p>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <h3>Chính sách và bảo mật</h3>
+                    <ul>
+                        <li><a href="#">Chính sách và qui định chung</a></li>
+                        <li><a href="#">Quy định về thanh toán</a></li>
+                        <li><a href="#">Chính sách về hủy tour</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-12 col-md-12 col-lg-4">
+                    <h3>Liên hệ</h3>
+                    <ul>
+                        <li>Chi nhánh Hà Nội:</li>
+                        <li>Điện thoại: 028 123 45678</li>
+                        <li>Hotline: 19001008</li>
+                    </ul>
+                    <ul class="contact-icons">
+                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+
+        </footer>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+    </script>
+    <!-- boostrap -->
+    <script type="text/javascript" src="../js/./wow.min.js"></script>
+    <!-- wowjs -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- jquerry -->
+    <script type="text/javascript" src="../js/./scroll-up.js"></script>
+    <script type="text/javascript" src="../js/./slideshow.js"></script>
+
+    <script>
+        new WOW().init();
+    </script>
+
+</body>
