@@ -5,6 +5,8 @@
 section h1 {
     text-align: center;
     margin: 2rem 0;
+    font-size: 1.5rem;
+    text-align: left;
 }
 
 section h3 {
@@ -98,4 +100,16 @@ section h3 {
 
 .tour-gist i {
     margin-right: .5rem;
+}
+
+.side-bar-position {
+    position: fixed !important;
+    top: 0;
+    right: 190px;
+    z-index: 100;
+    max-width: 25% !important;
+}
+
+td:first-child{
+    width: 20%;
 }

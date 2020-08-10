@@ -1,40 +1,49 @@
 $(document).ready(function ($) {
 
-    $('#s1').click(function () {
-        if ( $('.s1').hasClass('fa-long-arrow-alt-down')) {
-            $('.s1').addClass('fa-long-arrow-alt-up');
-            $('.s1').removeClass('fa-long-arrow-alt-down');
-        } else if ( $('.s1').hasClass('fa-long-arrow-alt-up') ) {
-            $('.s1').removeClass('fa-long-arrow-alt-up');
-        } 
-        else {
-            $('.s1').addClass('fa-long-arrow-alt-down');
-        }
-        
-    });
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 180 ) {
+            
+            $('.right-sidebar').addClass('side-bar-position');
 
-    $('#s2').click(function () {
-        if ( $('.s2').hasClass('fa-long-arrow-alt-down')) {
-            $('.s2').addClass('fa-long-arrow-alt-up');
-            $('.s2').removeClass('fa-long-arrow-alt-down');
-        } else if ( $('.s2').hasClass('fa-long-arrow-alt-up') ) {
-            $('.s2').removeClass('fa-long-arrow-alt-up');
-        } 
-        else {
-            $('.s2').addClass('fa-long-arrow-alt-down');
+            if ($(this).scrollTop() > 1500) {
+                $('.right-sidebar').removeClass('side-bar-position');
+                $('.right-sidebar').css({'margin-top':'1320px'});
+            } else {
+                $('.right-sidebar').css({'margin-top':'0'});
+            }
+            
+        } else {
+            $('.right-sidebar').removeClass('side-bar-position');
         }
     });
 
-    $('#s3').click(function () {
-        if ( $('.s3').hasClass('fa-long-arrow-alt-down')) {
-            $('.s3').addClass('fa-long-arrow-alt-up');
-            $('.s3').removeClass('fa-long-arrow-alt-down');
-        } else if ( $('.s3').hasClass('fa-long-arrow-alt-up') ) {
-            $('.s3').removeClass('fa-long-arrow-alt-up');
-        } 
-        else {
-            $('.s3').addClass('fa-long-arrow-alt-down');
+    $("li[id*='s']").click(function() {
+        let a = $(this).attr("id");
+        if ($('.'+a).hasClass('fa-long-arrow-alt-down')) {
+            $('.'+a).addClass('fa-long-arrow-alt-up');
+            $('.'+a).removeClass('fa-long-arrow-alt-down');
+        } else if ($('.'+a).hasClass('fa-long-arrow-alt-up')) {
+            $('.'+a).removeClass('fa-long-arrow-alt-up');
+        } else {
+            $('.'+a).addClass('fa-long-arrow-alt-down');
         }
     });
 
-})  
+    $("a[href*='#']").click(function() {
+        let target = $(this).attr("href");
+        $('html,body').stop().animate({
+          scrollTop: $(target).offset().top
+        }, 500);
+        event.preventDefault();
+      });
+    //   stop dung animate dang chay
+    // event. k thay bi loi load
+
+    //   $("a[href*='#']:not([href='#])").click(function() {
+    //     let target = $(this).attr("href");
+    //     $('html,body').stop().animate({
+    //       scrollTop: $(target).offset().top
+    //     }, 1000);
+    //     event.preventDefault();
+    //   });
+})

@@ -19,8 +19,6 @@ $(document).ready(function ($) {
         // return false;
     });
     //scroll-up
-    
-    
     // sort
 
     $('.click-sidebar').click(function () {
