@@ -22,7 +22,7 @@ h6 i {
     font-size: 1rem;
     border: 1px solid transparent;
     padding: .5rem;
-    background-color: #2980b9;
+    background-color: #8e44ad;
     color: #fff;
     border-radius: .2rem;
 }
@@ -44,4 +44,12 @@ h6 i {
 
 .pagination {
     justify-content: flex-end;
+}
+
+.side-bar-position {
+    position: fixed !important;
+    top: 0;
+    right: 205px;
+    z-index: 100;
+    max-width: 24.3% !important;
 }

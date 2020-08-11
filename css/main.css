@@ -164,7 +164,7 @@ h2 i {
 }
 
 .top-sidebar > div {
-    background-color: #2980b9;
+    background-color: #8e44ad;
     padding: .3rem .7rem;
     color: #fff;
     display: flex;
@@ -236,7 +236,6 @@ h2 i {
     background-color: transparent;
     color: #2980b9;
 }
-
 
 .zoom{
     overflow: hidden;

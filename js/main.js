@@ -15,6 +15,20 @@ $(document).ready(function ($) {
         } else {
             $('.right-sidebar').removeClass('side-bar-position');
         }
+
+        if ($(this).scrollTop() > 680) {
+
+            $('.sidebar').addClass('side-bar-position');
+
+            if ($(this).scrollTop() > 1600) {
+                $('.sidebar').removeClass('side-bar-position');
+                $('.sidebar').css({'margin-top':'900px'});
+            } else {
+                $('.sidebar').css({'margin-top':'0'});
+            }
+        } else {
+            $('.sidebar').removeClass('side-bar-position');
+        }
     });
 
     $("li[id*='s']").click(function() {
