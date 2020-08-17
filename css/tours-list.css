@@ -48,7 +48,7 @@ h6 i {
 
 .side-bar-position {
     position: fixed !important;
-    top: 0;
+    top: 65px;
     right: 205px;
     z-index: 100;
     max-width: 24.3% !important;

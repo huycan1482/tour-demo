@@ -104,7 +104,7 @@ section h3 {
 
 .side-bar-position {
     position: fixed !important;
-    top: 0;
+    top: 65px;
     right: 190px;
     z-index: 100;
     max-width: 25% !important;

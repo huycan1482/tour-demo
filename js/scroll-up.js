@@ -22,7 +22,7 @@ $(document).ready(function ($) {
     // sort
 
     $('.click-sidebar').click(function () {
-        $('.sidebar-form').slideToggle(1000,'linear');
+        $('.sidebar-form').slideToggle(500,'linear');
     });
     // click-sidebar form
 
