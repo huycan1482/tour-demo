@@ -1,13 +1,13 @@
 $(document).ready(function ($) {
 
     $(window).scroll(function () {
-        if ($(this).scrollTop() > 125 ) {
+        if ($(this).scrollTop() > 39 ) {
             
             $('.right-sidebar').addClass('side-bar-position');
 
-            if ($(this).scrollTop() > 1500) {
+            if ($(this).scrollTop() > 1400) {
                 $('.right-sidebar').removeClass('side-bar-position');
-                $('.right-sidebar').css({'margin-top':'1380px'});
+                $('.right-sidebar').css({'margin-top':'1390px'});
             } else {
                 $('.right-sidebar').css({'margin-top':'0px'});
             }

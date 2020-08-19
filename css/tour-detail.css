@@ -7,6 +7,7 @@ section h1 {
     margin: 2rem 0;
     font-size: 1.5rem;
     text-align: left;
+    color: #2980b9;
 }
 
 section h3 {
@@ -15,13 +16,17 @@ section h3 {
     padding: 1rem 0;
 }
 
+/* .book-tour {
+    margin: 1rem 0;
+} */
+
 .box-tour i {
     margin-right: 1rem;
 }
 
 .tour-title {
-    margin-bottom: 2rem;
-    padding: 1rem;
+    margin-bottom: .5rem;
+    padding: 0.5rem;
     border: 1px solid #bdc3c7;
     border-radius: .3rem;
 }
@@ -70,7 +75,7 @@ section h3 {
 }
 
 .tour-gist {
-    margin: 2rem 0;
+    margin: 1rem 0;
 }
 
 .tour-gist li {
@@ -95,7 +100,7 @@ section h3 {
     font-weight: 700;
     color: #fff;
     display: block;
-    padding: 1rem;
+    padding: .5rem;
 }
 
 .tour-gist i {
@@ -104,7 +109,7 @@ section h3 {
 
 .side-bar-position {
     position: fixed !important;
-    top: 65px;
+    top: 30px;
     right: 190px;
     z-index: 100;
     max-width: 25% !important;
@@ -112,4 +117,14 @@ section h3 {
 
 td:first-child{
     width: 20%;
+}
+
+.top-right-sidebar {
+    margin: 2rem 0 1rem;
+    padding: 1rem;
+    background-color: #8e44ad;
+    color: #fff;
+    font-weight: 700;
+    font-size: 1rem;
+    border-radius: .2rem;
 }
